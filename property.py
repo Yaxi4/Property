@@ -1,7 +1,7 @@
 class AlfaBank:  # Обьявили класс
     def __init__(self, name, balance):
         self.name = name
-        self.__balance = balance  # работать с balance можно будет только внутри класса
+        self.__balance = balance  # работать с __balance можно будет только внутри класса
 
     def get_balance(self):  # при вызове данной функции мы получим значение в атрибуте __balance
         return self.__balance
